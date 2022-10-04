@@ -98,15 +98,52 @@ html, body{
 
 .main-container{
     display: flex;
-    align-items: center;
     justify-content: center;
+   
 }
 
 .main-text{
     display: flex ;
     flex-direction: column;
     padding-left: 20px;
+    vertical-align: text-top;
+    
 }
 .main-side-image{
     flex-basis: 40%;
+}
+
+.recipe-side-image{
+    flex-basis: 35%;
+    height: 450px;
+    padding-right: 20px;
+}
+
+.recipe-text{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.descriptor-text{
+    text-align: center;
+}
+.descriptor-text-1{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.table-section {
+    margin: 1em;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    padding-top:20px;
+    padding-bottom: 50px;
+    line-height: 2.0;
+}
+
+.title{
+    text-align: center;
 }
