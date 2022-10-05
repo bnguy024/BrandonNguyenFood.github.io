@@ -114,8 +114,8 @@ html, body{
 }
 
 .recipe-side-image{
-    flex-basis: 35%;
-    height: 450px;
+    flex-basis: 30%;
+    height: 400px;
     padding-right: 20px;
 }
 
@@ -130,7 +130,8 @@ html, body{
     text-align: center;
 }
 .descriptor-text-1{
-    padding-left: 300px;
+    text-indent: 10px;
+    padding-left: 400px;
     padding-right: 300px;
 }
 
@@ -146,15 +147,57 @@ html, body{
 
 .title{
     text-align: center;
+    padding-top: 30px;
+}
+.about-title{
+    text-align: center;
+    padding-left: 140px;
 }
 
 .rest-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
+   
 }
 
 .rest-container img{
     width: 500px;
-    justify-content: space-between;
+    height: 300px;
+    margin-left: 10px;  
+    margin-bottom: 10px;
+    
+}
+
+.ramen-title{
+    display: flex;
+    justify-content: center;
+    word-spacing: 400px;
+    
+    
+}
+
+.self-side-image{
+    width: 300px;
+    height: 400px;
+    margin-left: 10px;  
+    margin-bottom: 10px;
+
+}
+
+.food-text{
+    padding-left: 300px;
+}
+
+.about-section {
+    padding-top: 100px;
+    margin: 1em;
+}
+
+.about-footer{
+    background-color: #606060;
+    color: white;
+    padding: .25em 0;
+    margin-top:12.4em;
+    text-align: center;
 }
