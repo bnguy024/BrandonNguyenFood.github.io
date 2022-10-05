@@ -147,3 +147,14 @@ html, body{
 .title{
     text-align: center;
 }
+
+.rest-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rest-container img{
+    width: 500px;
+    justify-content: space-between;
+}
